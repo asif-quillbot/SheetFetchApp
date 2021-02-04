@@ -1177,22 +1177,22 @@
         "affectsGlobalScope": false
       },
       "../src/career/career.service.ts": {
-        "version": "8bfb911fe8d6868bbaf9aa7039e99377a8c4f9c0aad55dfa0f2af056ce3102a9",
+        "version": "82ed9aecedb9ac0f0b47f368d29e46b67ac3df63378e9e5a2f555ad5c6f21a4f",
         "signature": "3f8d425a9c315395d46152e825a1e0eef1525bd73bfcec930d6ec9f44dc9bdc6",
         "affectsGlobalScope": false
       },
       "../src/career/career.controller.ts": {
-        "version": "ed49c33efea89ec68ac21b8bbd7919b7d38ca6f240439725b291843b30ad128a",
-        "signature": "c0bb47b84b74526cd1bbb6b26244469995bbfa30f5c64c99b34b7e6f6ff61396",
+        "version": "856c423fcf887aa3c1503d4345fa4178f47da19e890f9a2a2e4dfe483a7e3408",
+        "signature": "972b9350dff7e30fe27905ca9227626e11229bf2203c6a3edf9d979f25a12527",
         "affectsGlobalScope": false
       },
       "../src/career/career.module.ts": {
-        "version": "1f51baf5d4a39dfab0c5e3a5cbadd034562913ff0cfd1afcb22f4804b0e1b93e",
+        "version": "47a035ce9c6336e0c7842ac7f5c448e723cf90a30118a8bbb055b4407147a587",
         "signature": "a232172cf189e171b4fc00e97e42261b9db40fb07de9a53bc1b130af701b3251",
         "affectsGlobalScope": false
       },
       "../src/app.module.ts": {
-        "version": "3ac5d8ce371cacf618715cc14874f96b83e9d717cc9a2c9249805502225b9959",
+        "version": "ded8eea5a523ebad9fc32c50768004293d230ff1812276d8cd9663ab5b5584e9",
         "signature": "9fc7f7b6ad854404973b8cba8e6d883f758237991968e9a3965d716d46f1da88",
         "affectsGlobalScope": false
       },

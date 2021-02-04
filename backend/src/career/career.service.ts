@@ -1,6 +1,6 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 //import Redis from 'ioredis';
-import axios from 'axios';
+import axios from "axios";
 
 //const redis = new Redis();
 
@@ -38,15 +38,15 @@ export class CareerService {
 
 const fetchAPI = async (query) => {
   const result = await axios.get(
-    'https://spreadsheets.google.com/feeds/cells/1hGUy6wMH01fo_eHd1HqUU99RtpuxR3pChUpVcqxGDu8/1/public/values?alt=json',
+    "https://spreadsheets.google.com/feeds/cells/1hGUy6wMH01fo_eHd1HqUU99RtpuxR3pChUpVcqxGDu8/1/public/values?alt=json"
   );
   const data = result.data.feed.entry;
 
   let i = -1;
   let item = {
     id: 0,
-    position: '',
-    description: '',
+    position: "",
+    description: "",
   };
   let j = 0;
   let finalData = [];
@@ -61,8 +61,8 @@ const fetchAPI = async (query) => {
       finalData[j++] = item;
       item = {
         id: 0,
-        position: '',
-        description: '',
+        position: "",
+        description: "",
       };
     }
   });

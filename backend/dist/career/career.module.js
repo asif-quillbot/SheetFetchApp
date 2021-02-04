@@ -15,7 +15,7 @@ let CareerModule = class CareerModule {
 CareerModule = __decorate([
     common_1.Module({
         controllers: [career_controller_1.CareerController],
-        providers: [career_service_1.CareerService]
+        providers: [career_service_1.CareerService],
     })
 ], CareerModule);
 exports.CareerModule = CareerModule;

@@ -1,17 +1,17 @@
-import { Controller, Get, Query } from '@nestjs/common';
-import {CareerService} from './career.service'
+import { Controller, Get, Query } from "@nestjs/common";
+import { CareerService } from "./career.service";
 
-@Controller('career')
+@Controller("career")
 export class CareerController {
-    constructor(private careerService: CareerService) {}
+  constructor(private careerService: CareerService) {}
 
-    @Get()
-    async getPositions(@Query() query) {
-        return this.careerService.getPositions(query)
-    }
+  @Get()
+  async getPositions(@Query() query) {
+    return this.careerService.getPositions(query);
+  }
 
-    // @Get('redis')
-    // async getCached(@Query() query) {
-    //     return this.careerService.getCached(query)
-    // }
+  // @Get('redis')
+  // async getCached(@Query() query) {
+  //     return this.careerService.getCached(query)
+  // }
 }

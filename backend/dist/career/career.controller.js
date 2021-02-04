@@ -31,7 +31,7 @@ __decorate([
     __metadata("design:returntype", Promise)
 ], CareerController.prototype, "getPositions", null);
 CareerController = __decorate([
-    common_1.Controller('career'),
+    common_1.Controller("career"),
     __metadata("design:paramtypes", [career_service_1.CareerService])
 ], CareerController);
 exports.CareerController = CareerController;
